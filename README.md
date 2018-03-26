@@ -8,43 +8,43 @@ Border对象有borderLeft和borderRight两个孩子,Canvas对象有Timer和Score
 Prefabs中有六块资源，用来修饰Border对象的形状，此外还有一些脚本文件。<br/>
 
 * 
-using System.Collections;<br/>
-using System.Collections.Generic;<br/>
-using UnityEngine;
+      using System.Collections;
+      using System.Collections.Generic;
+      using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour {
+      public class NewBehaviourScript : MonoBehaviour {
 
-    void Awake()
-    {
-        Debug.Log("Awake");
-    }
-    void Start () 
-    {
-        Debug.Log("Start");
-    }
-    void Update () 
-    {
-        Debug.Log("Update");
-    }
-    void FixedUpdate()
-    {
-        Debug.Log("FixedUpdate");
-    }
-    void LateUpdate()
-    {
-        Debug.Log("LateUpdate");
-    }
+      void Awake()
+      {
+         Debug.Log("Awake");
+      }
+      void Start () 
+      {
+         Debug.Log("Start");
+      }
+      void Update () 
+      {
+         Debug.Log("Update");
+      }
+      void FixedUpdate()
+      {
+         Debug.Log("FixedUpdate");
+      }
+      void LateUpdate()
+      {
+         Debug.Log("LateUpdate");
+      }
 
-    void OnGUI()
-    {
-        Debug.Log("OnGUI");
-    }
-    void OnDisable()
-    {
-        Debug.Log("OnDisable");
-    }
-    void OnEnable()
-    {
-        Debug.Log("OnEnable");
-    }
-}
+      void OnGUI()
+      {
+         Debug.Log("OnGUI");
+      }
+      void OnDisable()
+      {
+         Debug.Log("OnDisable");
+      }
+      void OnEnable()
+      {
+         Debug.Log("OnEnable");
+      }
+  }
