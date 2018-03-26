@@ -14,37 +14,37 @@ Prefabs中有六块资源，用来修饰Border对象的形状，此外还有一�
 
       public class NewBehaviourScript : MonoBehaviour {
 
-      void Awake()
-      {
-         Debug.Log("Awake");
-      }
-      void Start () 
-      {
-         Debug.Log("Start");
-      }
-      void Update () 
-      {
-         Debug.Log("Update");
-      }
-      void FixedUpdate()
-      {
-         Debug.Log("FixedUpdate");
-      }
-      void LateUpdate()
-      {
-         Debug.Log("LateUpdate");
-      }
+        void Awake()
+        {
+           Debug.Log("Awake");
+        }
+        void Start () 
+        {
+           Debug.Log("Start");
+        }
+        void Update () 
+        {
+           Debug.Log("Update");
+        }
+        void FixedUpdate()
+        {
+           Debug.Log("FixedUpdate");
+        }
+        void LateUpdate()
+        {
+           Debug.Log("LateUpdate");
+        }
 
-      void OnGUI()
-      {
-         Debug.Log("OnGUI");
+        void OnGUI()
+        {
+           Debug.Log("OnGUI");
+        }
+        void OnDisable()
+        {
+           Debug.Log("OnDisable");
+        }
+        void OnEnable()
+        {
+           Debug.Log("OnEnable");
+        }
       }
-      void OnDisable()
-      {
-         Debug.Log("OnDisable");
-      }
-      void OnEnable()
-      {
-         Debug.Log("OnEnable");
-      }
-  }
