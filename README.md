@@ -3,4 +3,4 @@
 
 * 这是一个简易的俄罗斯方块游戏<br/>
 ![](https://github.com/L1997YM/Unity3D-homework1/blob/master/tetrisL_gameobject.png)<br/>
-Border对象有borderLeft和borderRight两个孩子<br/>
+Border对象有borderLeft和borderRight两个孩子,Canvas对象有Timer和Score两个孩子。<br/>
