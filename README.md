@@ -8,7 +8,8 @@ Border对象有borderLeft和borderRight两个孩子,Canvas对象有Timer和Score
 Prefabs中有六块资源，用来修饰Border对象的形状，此外还有一些脚本文件。<br/>
 ***
 * 
-      using System.Collections;
+~~~
+      using System.Collections;
       using System.Collections.Generic;
       using UnityEngine;
 
@@ -48,18 +49,19 @@ Prefabs中有六块资源，用来修饰Border对象的形状，此外还有一�
            Debug.Log("OnEnable");
         }
       }
+~~~
 ***
 * 
-  1. GameObject:Unity场景中所有实体的基类。<br/>
-     Transform：对象的位置，旋转和缩放。<br/>
-     Component：所有附加在游戏对象上的物品的基类。<br/>
-  2. <br/>
-    >table的对象属性 <br/>
-    >*Tag: Untagged <br/>
-    >>Layer: Default <br/>
-    >Transform 的属性 <br/>
-    >>Position: (0, 0, 0) <br/>
-    >>Rotation: (0, 0, 0) <br/>
-    >>Scale: (1, 1, 1) <br/>
-    >table的部件<br/>
-    >>Transform,Cube(Mesh Renderer),Box Collider<br/>
+ 1. GameObject:Unity场景中所有实体的基类。<br/>
+    Transform：对象的位置，旋转和缩放。<br/>
+    Component：所有附加在游戏对象上的物品的基类。<br/>
+ 2. <br/>
+    table的对象属性 <br/>
+    Tag: Untagged<br/>
+    Layer: Default<br/>
+    Transform的属性 <br/>
+    Position: (0, 0, 0) <br/>
+    Rotation: (0, 0, 0) <br/>
+    Scale: (1, 1, 1) <br/>
+    table的部件 <br/>
+    Transform,Cube(Mesh Renderer),Box Collider <br/>
