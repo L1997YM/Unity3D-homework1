@@ -54,21 +54,20 @@ Prefabs中有六块资源，用来修饰Border对象的形状，此外还有一�
 ~~~
 ***
 * *查找脚本手册，了解 GameObject，Transform，Component 对象*
-   1. *分别翻译官方对三个对象的描述（Description）*<br/>
-      GameObject: Unity场景中所有实体的基类。<br/>
-      Transform：对象的位置，旋转和缩放。<br/>
-      Component：所有附加在游戏对象上的物品的基类。<br/>
-   2. *描述下图中 table 对象（实体）的属性、table 的 Transform 的属性、 table 的部件*<br/>
-      (1)table的对象属性 <br/>
+  1. *分别翻译官方对三个对象的描述（Description）*<br/>
+    GameObject: Unity场景中所有实体的基类。<br/>
+    Transform：对象的位置，旋转和缩放。<br/>
+    Component：所有附加在游戏对象上的物品的基类。<br/>
+  2. *描述下图中 table 对象（实体）的属性、table 的 Transform 的属性、 table 的部件*<br/>
+    (1)table的对象属性 <br/>
       Tag: Untagged <br/>
       Layer: Default <br/>
-      (2)Transform的属性 <br/>
+    (2)Transform的属性 <br/>
       Position: (0, 0, 0) <br/>
       Rotation: (0, 0, 0) <br/>
       Scale: (1, 1, 1) <br/>
-      (3)table的部件: <br/>
+    (3)table的部件: <br/>
       Transform, Cube(Mesh Renderer), Box Collider <br/>
-***
 ***
 * *资源预设（Prefabs）与 对象克隆 (clone)*
   1. *预设（Prefabs）有什么好处？*<br/>
