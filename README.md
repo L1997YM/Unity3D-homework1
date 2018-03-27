@@ -57,11 +57,11 @@ Prefabs中有六块资源，用来修饰Border对象的形状，此外还有一�
     Component：所有附加在游戏对象上的物品的基类。<br/>
  2. <br/>
     table的对象属性 <br/>
-    Tag: Untagged<br/>
-    Layer: Default<br/>
+    Tag: Untagged <br/>
+    Layer: Default <br/>
     Transform的属性 <br/>
     Position: (0, 0, 0) <br/>
     Rotation: (0, 0, 0) <br/>
     Scale: (1, 1, 1) <br/>
-    table的部件 <br/>
+    table的部件 <br/>
     Transform,Cube(Mesh Renderer),Box Collider <br/>
