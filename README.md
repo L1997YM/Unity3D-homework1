@@ -5,7 +5,7 @@
 * *下载几个游戏案例，分别总结资源、对象组织的结构（指资源的目录组织结构与游戏对象树的层次结构）*<br/>
 这是一个简易的俄罗斯方块游戏。<br/>
 ![](https://github.com/L1997YM/Unity3D-homework1/blob/master/tetrisL_gameobject.png)<br/>
-Border对象有borderLeft和borderRight两个孩子,Canvas对象有Timer和Score两个孩子。<br/>
+Border对象有borderLeft和borderRight两个孩子,Canvas对象有Timer,Score和Background三个孩子。<br/>
 ![](https://github.com/L1997YM/Unity3D-homework1/blob/master/tetrisL_assets.png)<br/>
 Prefabs中有六块资源，用来修饰Border对象的形状，此外还有一些脚本文件。<br/>
 ***
