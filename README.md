@@ -70,7 +70,7 @@ Prefabs中有六块资源，用来修饰Border对象的形状，此外还有一�
       Transform, Cube(Mesh Renderer), Box Collider <br/>
   3.  *用 UML 图描述 三者的关系（请使用 UMLet 14.1.1 stand-alone版本出图）*
   ![](https://github.com/L1997YM/Unity3D-homework1/blob/master/hw_.jpg)<br/>
-  ![](https://github.com/L1997YM/Unity3D-homework1/blob/master/hw_.jpg)<br/>
+  ![](https://github.com/L1997YM/Unity3D-homework1/blob/master/UML_.png)<br/>
 ***
 * *资源预设（Prefabs）与 对象克隆 (clone)*
   1. *预设（Prefabs）有什么好处？*<br/>
